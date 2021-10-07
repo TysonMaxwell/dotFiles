@@ -228,3 +228,4 @@ fi
 export WINHOME=/mnt/c/Users/tyson
 alias winhome='cd $WINHOME'
 alias src="cd ~/src"
+alias clip=clip.exe
