@@ -221,7 +221,10 @@ fi
 
 unset DOTFILES
 
-if [[ $PWD = "/mnt/c/Users/tyson_657" ]]; then
+if [[ $PWD = "/mnt/c/Users/tyson" ]]; then
     cd ~    
 fi
 
+export WINHOME=/mnt/c/Users/tyson
+alias winhome='cd $WINHOME'
+alias src="cd ~/src"

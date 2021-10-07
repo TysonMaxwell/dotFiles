@@ -1,0 +1,21 @@
+[alias]
+	co = checkout
+	ci = commit
+	cm = commit -m
+	s = status -sb
+	br = branch
+	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+	h = log --oneline
+	last = log -1 HEAD --stat
+	type = cat-file -t
+	dump = cat-file -p
+	dump = cat-file -p
+	rv = remote -v
+	d = diff
+	dv = difftool -t vimdiff -y
+	conf = config --global -l
+	se = !git rev-list --all | xargs git grep -F
+
+[user]
+	email = tyson.maxwell@gmail.com
+	name = Tyson Maxwell
