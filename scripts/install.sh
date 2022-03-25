@@ -40,8 +40,8 @@ install ripgrep
 install cmatrix
 install lolcat
 install cowsay
-install nodejs
-install npm
+#install nodejs
+#install npm
 install rustc
 install libnotify-bin
 

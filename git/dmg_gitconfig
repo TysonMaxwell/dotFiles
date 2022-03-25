@@ -1,0 +1,10 @@
+[user]
+	email = tmaxwell@divisionsinc.com
+	name = Tyson Maxwell
+
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	sshCommand = ssh -i ~/.ssh/dmg -F /dev/null
